@@ -1,0 +1,185 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html,body
+{
+  height: 100%;
+  width: 100%;
+}
+#main
+{
+  height: 100%;
+  width: 100%;
+}
+#left
+{
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: #c6b6b6;
+}
+#left img
+{
+  height: calc(100% - 4px);
+  width: 100%;
+}
+
+#right
+{
+  height: 100%;
+  width: 50%;
+  float: right;
+
+}
+#wel{
+  font-size: 30px;
+  font-family: 'Arial';
+  color: #000000;
+  margin-top: 15%;
+  margin-left: 20%;
+  
+}
+
+#rdiv
+{
+  height: 40%;
+  width: 80%;
+ 
+
+}
+.rform
+{
+ height:50%;
+ width: 35%;
+background: transparent;
+ padding-top: 80px;
+  
+ margin-left: 45%
+ 
+  
+}
+.rform .ibox
+{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+ 
+
+  
+   
+}
+.rform #btn
+{
+  margin-top: 2px;
+  width: 100%;
+  height: 40px;
+  background-color: #9b4343;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Arial';
+  cursor: pointer;
+  padding-left: 10px;
+}
+.rform h2
+{
+  font-size: 36px;
+  text-align: center;
+}
+.form
+{
+ height:60%;
+ width: 50%;
+background: transparent;
+ margin-top: 20%;
+ margin-left: 27%;
+
+ 
+  
+}
+.form .ibox
+{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+ 
+
+  
+   
+}
+.ibox input
+{
+  
+  width: calc(100% - 23px);
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border-radius: 40px;
+  border: none;
+  font-size: 20px;
+ 
+   border: 2px solid #9b4343;
+   padding-left: 20px;
+  
+}
+.ibox input::placeholder
+{
+  color: #3e3c3c;
+  font-size: 15px;
+  font-family: 'Arial';
+  padding-left: 20px;
+}
+.form h2
+{
+  font-size: 36px;
+  text-align: center;
+}
+.form #fp
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+.form #fp a
+{
+  text-decoration: none;
+  color: #9b4343;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Arial';
+}
+.form #btn
+{
+  margin-top: 2px;
+  width: 100%;
+  height: 40px;
+  background-color: #9b4343;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Arial';
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.form #register
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.form #register a{
+  text-decoration: none;
+  color: #9b4343;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Arial';
+}
